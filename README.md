@@ -14,3 +14,15 @@ Return the maximum value of F(0), F(1), ..., F(n-1).
 The test cases are generated so that the answer fits in a 32-bit integer.
 
 <img width="387" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan21/assets/122693422/e061e4ce-b1c8-4c6a-8e74-06f4c2e7c9b2">
+
+## Q3 Friends of appropriate age
+There are n persons on a social media website. You are given an integer array ages where ages[i] is the age of the ith person.
+A Person x will not send a friend request to a person y (x != y) if any of the following conditions is true:
+age[y] <= 0.5 * age[x] + 7
+age[y] > age[x]
+age[y] > 100 && age[x] < 100
+Otherwise, x will send a friend request to y.
+Note that if x sends a request to y, y will not necessarily send a request to x. Also, a person will not send a friend request to themself.
+Return the total number of friend requests made.
+
+<img width="396" alt="image" src="https://github.com/Poorvaahuja/leetcode_jan21/assets/122693422/370f099b-d5dc-4cab-a603-fb5b5ceb8134">
